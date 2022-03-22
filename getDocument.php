@@ -6,10 +6,7 @@ $docID = preg_replace("/[^0-9A-zA-Z]+/", "", $_GET['docID']);
 $formattedCardID = substr($cardID, 0, 4) . '-' . substr($cardID, 4, 4);
 
 
-$realDocName['20210610_StatutsSGSSE_modification'] = 'documents/0WMuExSeEO.pdf';
-$realDocName['00000000_PROJET_StatutsSGSSE_consolide'] = 'documents/1WMuLiMQt.pdf';
-$realDocName['20210610_SGSSE_PVAG_20200617'] = 'documents/56FoijUuuJBHBhj.pdf';
-$realDocName['20210610_SGSSE_AG225_ODJ'] = 'documents/efRGWerfg3egSEgg.pdf';
+$realDocName['FriendlyfileName.pdf'] = 'documents/realFileName.pdf';
 
 
 
